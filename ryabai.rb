@@ -2,12 +2,12 @@
 
 # frozen_string_literal: true
 
-# fyabai.rb
-class Fyabai < Formula
+# ryabai.rb
+class Ryabai < Formula
   env :std
-  desc "Fork of Yabai for my personal use"
-  homepage "https://github.com/FelixKratz/yabai"
-  head "https://github.com/FelixKratz/yabai.git"
+  desc "Fork of Yabai for personal use"
+  homepage "https://github.com/Reeperto/yabai"
+  head "https://github.com/Reeperto/yabai.git"
 
   depends_on :macos => :high_sierra
 
