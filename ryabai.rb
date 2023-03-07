@@ -27,8 +27,6 @@ class Ryabai < Formula
     bin.install "#{buildpath}/bin/yabai"
   end
 
-    plist_options :manual => "yabai"
-
   service do
 
     run opt_bin/"yabai"
